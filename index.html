@@ -13,7 +13,7 @@ title: API Licensing
   <div class="span4" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
     <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong><a href="/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
     <ul class="newslist">
-      {% for post in site.posts limit:2 %}
+      {% for post in site.posts limit:3 %}
         <li><a href="{{ post.source }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
@@ -29,7 +29,7 @@ title: API Licensing
               var el = $(this);
               $title = el.find("title").text();
               $link = el.find("link").text();
-              if($listcount<2){
+              if($listcount<3){
                 $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
                 $('#rssNews').append($listitem);
                 }
