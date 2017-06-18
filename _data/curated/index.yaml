@@ -1,48 +1,4 @@
 ---
-- curated_id: 537bb28da893cfb268297efa8e021a45
-  item_date: "2013-07-01 00:00:00"
-  title: UK Open Government Licence is now compliant with the Open Definition
-  url: http://blog.okfn.org/2013/07/01/uk-open-government-license-is-now-compliant-with-the-open-definition/
-  domain: blog.okfn.org
-  image: ""
-- curated_id: f47a735980113a04bd49202720550072
-  item_date: "2013-07-13 09:53:59"
-  title: DBAD by philsturgeon
-  url: http://www.dbad-license.org/
-  domain: www.dbad-license.org
-  image: ""
-- curated_id: ec86543f4470fd807b2d656c59a53387
-  item_date: "2013-07-30 00:00:00"
-  title: 'OKCon 2013 Guest Post: Open Data Portal on Land Rights'
-  url: http://blog.okfn.org/2013/07/30/okcon-2013-guest-post-open-data-portal-on-land-rights/
-  domain: blog.okfn.org
-  image: ""
-- curated_id: 1ff93e9a6457b1df153c3e3715a2ef24
-  item_date: "2013-12-16 16:50:42"
-  title: Advocates Release Best Practices for Making Open Government Data ?License-Free?
-    | E Pluribus Unum
-  url: https://e-pluribusunum.com/2013/12/12/advocates-release-best-practices-for-making-open-government-data-license-free/comment-page-1/
-  domain: e-pluribusunum.com
-  image: ""
-- curated_id: b70775c024be4e3f03a5a01161f94b33
-  item_date: "2013-12-19 00:00:00"
-  title: Api License Agreement
-  url: https://www.cloudwords.com/cloudwords/api-license-agreement
-  domain: www.cloudwords.com
-  image: ""
-- curated_id: 9f85e0cddc4e03c7d48be1bade8617e0
-  item_date: "2014-07-21 00:00:00"
-  title: Wattpad Updates to Creative Commons 4.0
-  url: https://blog.wattpad.com/2014/07/21/wattpad-updates-to-creative-commons-4-0/
-  domain: blog.wattpad.com
-  image: ""
-- curated_id: bd1e50d9aa441395bbcebc2f5ff933d6
-  item_date: "2014-09-29 08:50:07"
-  title: Data License Germany 2.0 confirmed as an ?Open license? | European Public
-    Sector Information Platform
-  url: http://www.epsiplatform.eu/cgi-sys/suspendedpage.cgi
-  domain: www.epsiplatform.eu
-  image: ""
 - curated_id: df51a2fd8e5bd6c5e6d7b81bdd39228b
   item_date: "2015-02-19 00:00:00"
   title: UN recommends open licensing for promoting cultural participation
@@ -61,12 +17,6 @@
   url: http://www.theverge.com/culture/2015/5/6/8555921/medium-creative-commons-copyright-licensing
   domain: www.theverge.com
   image: ""
-- curated_id: 9f061c99f71a28b512c95375bbbaef13
-  item_date: "2015-07-09 00:00:00"
-  title: ODC Public Domain Dedication and License (PDDL)
-  url: http://it.okfn.org/2015/07/09/pddl-1-0/
-  domain: it.okfn.org
-  image: ""
 - curated_id: b726603bfea71e0a3f4e30c413d5b463
   item_date: "2015-07-09 00:00:00"
   title: Open Data Commons Attribution License (ODC By) v1.0
@@ -77,6 +27,12 @@
   item_date: "2015-07-09 00:00:00"
   title: Open Data Commons Open Database License
   url: http://it.okfn.org/2015/07/09/odbl/
+  domain: it.okfn.org
+  image: ""
+- curated_id: 9f061c99f71a28b512c95375bbbaef13
+  item_date: "2015-07-09 00:00:00"
+  title: ODC Public Domain Dedication and License (PDDL)
+  url: http://it.okfn.org/2015/07/09/pddl-1-0/
   domain: it.okfn.org
   image: ""
 - curated_id: 4b15c4aa6388709bcd52d7ec4ff482e3
@@ -180,5 +136,66 @@
   title: 3 Licensing Woes for Streaming Video
   url: http://www.avnetwork.com/avtechnology/3-licensing-woes-for-streaming-video/125095
   domain: www.avnetwork.com
+  image: ""
+- curated_id: 0a8a857ac66dc2d25fe3e1c350826c92
+  item_date: "2017-01-11 00:00:00"
+  title: Interval Licensing LLC v. Aol, Inc.
+  url: https://www.courtlistener.com/opinion/2731747/interval-licensing-llc-v-aol-inc/
+  domain: www.courtlistener.com
+  image: ""
+- curated_id: 10899ab50c759dd1d06ddbab2dd33d77
+  item_date: "2017-01-20 00:00:00"
+  title: "State Department Publishes Open Licensing \u201CPlaybook\u201D for Federal
+    Agencies"
+  url: https://creativecommons.org/2017/01/20/state-department-publishes-open-licensing-playbook-federal-agencies/
+  domain: creativecommons.org
+  image: ""
+- curated_id: aa4332df555d4f262c687c5d4b12c3c4
+  item_date: "2017-02-21 00:00:00"
+  title: European Space Agency announces new Open Access Policy for Images and Data
+  url: https://creativecommons.org/2017/02/21/esa-oa/
+  domain: creativecommons.org
+  image: ""
+- curated_id: 9f036740129b5f3ee84fe71e216225f9
+  item_date: "2017-03-06 00:00:00"
+  title: We are changing the IP of GitLab Pages on GitLab.com
+  url: https://about.gitlab.com/2017/03/06/we-are-changing-the-ip-of-gitlab-pages-on-gitlab-com/
+  domain: about.gitlab.com
+  image: ""
+- curated_id: 6ce2f50cc45b3913a1eecb72481ac7df
+  item_date: "2017-03-16 15:25:33"
+  title: Open source license descriptions and metadata
+  url: https://github.com/blog/2335-open-source-license-descriptions-and-metadata
+  domain: github.com
+  image: ""
+- curated_id: 02b65250b28330f2d7a06fe744eb2dba
+  item_date: "2017-03-22 00:00:00"
+  title: GitHub Steps Up to Recognizing Developers Creative Rights
+  url: https://www.infoq.com/news/2017/03/github-creative-right-agreement
+  domain: www.infoq.com
+  image: ""
+- curated_id: 4222a880db272de25022a945c109a0ad
+  item_date: "2017-03-22 14:07:52"
+  title: Were open sourcing our approach to work/life balance in IP agreements.
+  url: https://github.com/blog/2337-work-life-balance-in-employee-intellectual-property-agreements
+  domain: github.com
+  image: ""
+- curated_id: 48e783012f698c27b566f441ebba0402
+  item_date: "2017-04-04 00:00:00"
+  title: Google hopes to end Android patent wars with a new community license
+  url: https://thenextweb.com/google/2017/04/04/google-hopes-to-end-android-patent-wars-with-a-new-community-license/
+  domain: thenextweb.com
+  image: ""
+- curated_id: c661b85be1e9a5373edaac78d3b7e689
+  item_date: "2017-04-21 00:00:00"
+  title: "How Licensed Content Plays a Key Role in Netflix\u2019s Content Strategy"
+  url: https://insights.newscred.com/licensed-content-netflix/
+  domain: insights.newscred.com
+  image: ""
+- curated_id: ce5e67ed0f389d5fc8222a972ff80c8a
+  item_date: "2017-05-05 15:12:08"
+  title: GitHub CLA
+  url: https://cla.github.com/
+  domain: cla.github.com
   image: ""
 ...
