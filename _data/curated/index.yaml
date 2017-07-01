@@ -23,10 +23,10 @@
   url: http://www.theverge.com/culture/2015/5/6/8555921/medium-creative-commons-copyright-licensing
   domain: www.theverge.com
   image: ""
-- curated_id: 9f061c99f71a28b512c95375bbbaef13
+- curated_id: e7fc185ee9527aea0c977dc93c10624b
   item_date: "2015-07-09 00:00:00"
-  title: ODC Public Domain Dedication and License (PDDL)
-  url: http://it.okfn.org/2015/07/09/pddl-1-0/
+  title: Open Data Commons Open Database License
+  url: http://it.okfn.org/2015/07/09/odbl/
   domain: it.okfn.org
   image: ""
 - curated_id: b726603bfea71e0a3f4e30c413d5b463
@@ -35,10 +35,10 @@
   url: http://it.okfn.org/2015/07/09/by-1-0/
   domain: it.okfn.org
   image: ""
-- curated_id: e7fc185ee9527aea0c977dc93c10624b
+- curated_id: 9f061c99f71a28b512c95375bbbaef13
   item_date: "2015-07-09 00:00:00"
-  title: Open Data Commons Open Database License
-  url: http://it.okfn.org/2015/07/09/odbl/
+  title: ODC Public Domain Dedication and License (PDDL)
+  url: http://it.okfn.org/2015/07/09/pddl-1-0/
   domain: it.okfn.org
   image: ""
 - curated_id: 4b15c4aa6388709bcd52d7ec4ff482e3
@@ -203,5 +203,17 @@
   title: GitHub CLA
   url: https://cla.github.com/
   domain: cla.github.com
+  image: ""
+- curated_id: qWvG3upKVjhQsFGaZKAHYPLj/ZqG5EvmI9R31DUAgMw=_15c691ccbb3:6a9ade3:cfb784e9
+  item_date: "2017-06-02 07:00:05"
+  title: How an open license can encourage use of open data
+  url: http://sunlightfoundation.com/?p=104501
+  domain: sunlightfoundation.com
+  image: ""
+- curated_id: Vu9JKRecSOAJdVLWt+hZOZh3J8Dtebi5uGFMzMDkUuY=_15c9d4c0b12:1a5916c:47752f80
+  item_date: "2017-06-12 10:13:43"
+  title: Default License Whitelist
+  url: http://blog.versioneye.com/?p=4078
+  domain: blog.versioneye.com
   image: ""
 ...
