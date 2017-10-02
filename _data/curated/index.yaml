@@ -23,6 +23,12 @@
   url: http://www.theverge.com/culture/2015/5/6/8555921/medium-creative-commons-copyright-licensing
   domain: www.theverge.com
   image: ""
+- curated_id: 9f061c99f71a28b512c95375bbbaef13
+  item_date: "2015-07-09 00:00:00"
+  title: ODC Public Domain Dedication and License (PDDL)
+  url: http://it.okfn.org/2015/07/09/pddl-1-0/
+  domain: it.okfn.org
+  image: ""
 - curated_id: e7fc185ee9527aea0c977dc93c10624b
   item_date: "2015-07-09 00:00:00"
   title: Open Data Commons Open Database License
@@ -33,12 +39,6 @@
   item_date: "2015-07-09 00:00:00"
   title: Open Data Commons Attribution License (ODC By) v1.0
   url: http://it.okfn.org/2015/07/09/by-1-0/
-  domain: it.okfn.org
-  image: ""
-- curated_id: 9f061c99f71a28b512c95375bbbaef13
-  item_date: "2015-07-09 00:00:00"
-  title: ODC Public Domain Dedication and License (PDDL)
-  url: http://it.okfn.org/2015/07/09/pddl-1-0/
   domain: it.okfn.org
   image: ""
 - curated_id: 4b15c4aa6388709bcd52d7ec4ff482e3
@@ -227,5 +227,35 @@
   title: Explaining React's license
   url: https://code.facebook.com/posts/112130496157735/explaining-react-s-license/?utm_source=codedot_rss_feed&utm_medium=rss&utm_campaign=RSS+Feed
   domain: code.facebook.com
+  image: ""
+- curated_id: 0VTnUfX894TcY5TA/oMFDbEY1bDrlajzsn67Jr80r8M=_15eb6347f2a:eabba0:9dbe7464
+  item_date: "2017-09-24 16:22:29"
+  title: Facebook re
+  url: https://thenextweb.com/?p=1078657
+  domain: thenextweb.com
+  image: ""
+- curated_id: COy8McbBfVir67ZxD2FOclUkFmMTSIz3gIibngyQUqQ=_15ec0e99e52:19335ea:feeb522d
+  item_date: "2017-09-26 03:00:00"
+  title: Relicensing the GraphQL specification
+  url: https://code.facebook.com/posts/121714468491809/relicensing-the-graphql-specification/?utm_source=codedot_rss_feed&utm_medium=rss&utm_campaign=RSS+Feed
+  domain: code.facebook.com
+  image: ""
+- curated_id: P6ZHWlrPQ5ILOZ54yDX4aZ046+AnYBvjvT3DdNFTXhQ=_15ebfa3368e:280a3ff:c84bd0de
+  item_date: "2017-09-26 12:21:17"
+  title: React Gets a New Front
+  url: https://thenewstack.io/?p=3153845
+  domain: thenewstack.io
+  image: ""
+- curated_id: P6ZHWlrPQ5ILOZ54yDX4aZ046+AnYBvjvT3DdNFTXhQ=_15eccabed7a:3cb76e7:c84bd0de
+  item_date: "2017-09-29 01:00:43"
+  title: Facebook Re
+  url: https://thenewstack.io/?p=3167973
+  domain: thenewstack.io
+  image: ""
+- curated_id: P6ZHWlrPQ5ILOZ54yDX4aZ046+AnYBvjvT3DdNFTXhQ=_15ed2e40b12:45c56cb:c84bd0de
+  item_date: "2017-09-30 06:00:45"
+  title: "This Week in Programming: Mixed Reactions to Facebook\u2019s React Relicensing"
+  url: https://thenewstack.io/?p=3173696
+  domain: thenewstack.io
   image: ""
 ...
