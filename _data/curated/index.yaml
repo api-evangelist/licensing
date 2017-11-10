@@ -23,6 +23,12 @@
   url: http://www.theverge.com/culture/2015/5/6/8555921/medium-creative-commons-copyright-licensing
   domain: www.theverge.com
   image: ""
+- curated_id: 9f061c99f71a28b512c95375bbbaef13
+  item_date: "2015-07-09 00:00:00"
+  title: ODC Public Domain Dedication and License (PDDL)
+  url: http://it.okfn.org/2015/07/09/pddl-1-0/
+  domain: it.okfn.org
+  image: ""
 - curated_id: e7fc185ee9527aea0c977dc93c10624b
   item_date: "2015-07-09 00:00:00"
   title: Open Data Commons Open Database License
@@ -33,12 +39,6 @@
   item_date: "2015-07-09 00:00:00"
   title: Open Data Commons Attribution License (ODC By) v1.0
   url: http://it.okfn.org/2015/07/09/by-1-0/
-  domain: it.okfn.org
-  image: ""
-- curated_id: 9f061c99f71a28b512c95375bbbaef13
-  item_date: "2015-07-09 00:00:00"
-  title: ODC Public Domain Dedication and License (PDDL)
-  url: http://it.okfn.org/2015/07/09/pddl-1-0/
   domain: it.okfn.org
   image: ""
 - curated_id: 4b15c4aa6388709bcd52d7ec4ff482e3
