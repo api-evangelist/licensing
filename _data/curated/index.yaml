@@ -23,6 +23,12 @@
   url: http://www.theverge.com/culture/2015/5/6/8555921/medium-creative-commons-copyright-licensing
   domain: www.theverge.com
   image: ""
+- curated_id: b726603bfea71e0a3f4e30c413d5b463
+  item_date: "2015-07-09 00:00:00"
+  title: Open Data Commons Attribution License (ODC By) v1.0
+  url: http://it.okfn.org/2015/07/09/by-1-0/
+  domain: it.okfn.org
+  image: ""
 - curated_id: 9f061c99f71a28b512c95375bbbaef13
   item_date: "2015-07-09 00:00:00"
   title: ODC Public Domain Dedication and License (PDDL)
@@ -33,12 +39,6 @@
   item_date: "2015-07-09 00:00:00"
   title: Open Data Commons Open Database License
   url: http://it.okfn.org/2015/07/09/odbl/
-  domain: it.okfn.org
-  image: ""
-- curated_id: b726603bfea71e0a3f4e30c413d5b463
-  item_date: "2015-07-09 00:00:00"
-  title: Open Data Commons Attribution License (ODC By) v1.0
-  url: http://it.okfn.org/2015/07/09/by-1-0/
   domain: it.okfn.org
   image: ""
 - curated_id: 4b15c4aa6388709bcd52d7ec4ff482e3
@@ -131,17 +131,17 @@
   url: http://boingboing.net/2016/10/15/game-developers-say-no-to-drm.html
   domain: boingboing.net
   image: ""
-- curated_id: 10280fbf0870a88c3e7005adfdd09dd3
-  item_date: "2016-10-17 00:00:00"
-  title: 3 Licensing Woes for Streaming Video
-  url: http://www.avnetwork.com/avtechnology/3-licensing-woes-for-streaming-video/125095
-  domain: www.avnetwork.com
-  image: ""
 - curated_id: 51810535328230d52ff67722b4f654fe
   item_date: "2016-10-17 00:00:00"
   title: License Agreements Used on Iconfinder
   url: http://blog.iconfinder.com/license-agreements-used-iconfinder/
   domain: blog.iconfinder.com
+  image: ""
+- curated_id: 10280fbf0870a88c3e7005adfdd09dd3
+  item_date: "2016-10-17 00:00:00"
+  title: 3 Licensing Woes for Streaming Video
+  url: http://www.avnetwork.com/avtechnology/3-licensing-woes-for-streaming-video/125095
+  domain: www.avnetwork.com
   image: ""
 - curated_id: 0a8a857ac66dc2d25fe3e1c350826c92
   item_date: "2017-01-11 00:00:00"
