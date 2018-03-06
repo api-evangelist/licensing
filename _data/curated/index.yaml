@@ -23,10 +23,10 @@
   url: http://www.theverge.com/culture/2015/5/6/8555921/medium-creative-commons-copyright-licensing
   domain: www.theverge.com
   image: ""
-- curated_id: e7fc185ee9527aea0c977dc93c10624b
+- curated_id: 9f061c99f71a28b512c95375bbbaef13
   item_date: "2015-07-09 00:00:00"
-  title: Open Data Commons Open Database License
-  url: http://it.okfn.org/2015/07/09/odbl/
+  title: ODC Public Domain Dedication and License (PDDL)
+  url: http://it.okfn.org/2015/07/09/pddl-1-0/
   domain: it.okfn.org
   image: ""
 - curated_id: b726603bfea71e0a3f4e30c413d5b463
@@ -35,10 +35,10 @@
   url: http://it.okfn.org/2015/07/09/by-1-0/
   domain: it.okfn.org
   image: ""
-- curated_id: 9f061c99f71a28b512c95375bbbaef13
+- curated_id: e7fc185ee9527aea0c977dc93c10624b
   item_date: "2015-07-09 00:00:00"
-  title: ODC Public Domain Dedication and License (PDDL)
-  url: http://it.okfn.org/2015/07/09/pddl-1-0/
+  title: Open Data Commons Open Database License
+  url: http://it.okfn.org/2015/07/09/odbl/
   domain: it.okfn.org
   image: ""
 - curated_id: 4b15c4aa6388709bcd52d7ec4ff482e3
@@ -294,5 +294,17 @@
     Platform
   url: https://www.insurancejournal.com/news/national/2017/12/11/473629.htm
   domain: www.insurancejournal.com
+  image: ""
+- curated_id: 7TEBlXSMajGkv/YSW3g1Klkey5yNzPysA89gpF/QOCo=_161660321c3:201480:ce0f9556
+  item_date: "2018-02-04 16:00:52"
+  title: What is Software License Management? SLM Explained
+  url: http://www.bmc.com/blogs/?p=11819
+  domain: www.bmc.com
+  image: ""
+- curated_id: PSNTZO8gXFUe+cpCZyApw0vEKWPT4b14D6teBEocIAE=_1619fde8a52:8352aa5:541f3c40
+  item_date: "2018-02-16 10:20:24"
+  title: Embedding a tweet could be copyright infringement, says new court ruling
+  url: https://www.theverge.com/2018/2/16/17020278/tweet-embed-copyright-infringement-justin-goldman-tom-brady-photo-ruling
+  domain: www.theverge.com
   image: ""
 ...
