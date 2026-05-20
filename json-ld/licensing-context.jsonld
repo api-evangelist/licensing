@@ -1,0 +1,125 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "lic": "https://api-evangelist.github.io/licensing/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "spdx": "http://spdx.org/rdf/terms#",
+
+    "OSSLicense": "spdx:License",
+    "LicenseEntitlement": "lic:LicenseEntitlement",
+
+    "name": "schema:name",
+    "description": "schema:description",
+
+    "spdx_id": {
+      "@id": "spdx:licenseId",
+      "@type": "xsd:string"
+    },
+    "reference_url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "osi_approved": {
+      "@id": "spdx:isOsiApproved",
+      "@type": "xsd:boolean"
+    },
+    "fsf_libre": {
+      "@id": "spdx:isFsfLibre",
+      "@type": "xsd:boolean"
+    },
+    "is_deprecated": {
+      "@id": "spdx:isDeprecatedLicenseId",
+      "@type": "xsd:boolean"
+    },
+    "category": {
+      "@id": "lic:category",
+      "@type": "xsd:string"
+    },
+    "obligations": {
+      "@id": "lic:obligations",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "license_text_url": {
+      "@id": "spdx:licenseTextHtml",
+      "@type": "@id"
+    },
+    "detected_by": {
+      "@id": "lic:detectedBy",
+      "@type": "xsd:string"
+    },
+    "confidence": {
+      "@id": "lic:confidence",
+      "@type": "xsd:decimal"
+    },
+
+    "entitlement_id": {
+      "@id": "lic:entitlementId",
+      "@type": "xsd:string"
+    },
+    "product": "schema:product",
+    "product_version": {
+      "@id": "schema:softwareVersion",
+      "@type": "xsd:string"
+    },
+    "license_type": {
+      "@id": "lic:licenseType",
+      "@type": "xsd:string"
+    },
+    "license_key": {
+      "@id": "lic:licenseKey",
+      "@type": "xsd:string"
+    },
+    "customer": {
+      "@id": "schema:customer",
+      "@type": "@id"
+    },
+    "seats": {
+      "@id": "lic:seats",
+      "@type": "xsd:integer"
+    },
+    "seats_consumed": {
+      "@id": "lic:seatsConsumed",
+      "@type": "xsd:integer"
+    },
+    "valid_from": {
+      "@id": "schema:validFrom",
+      "@type": "xsd:dateTime"
+    },
+    "valid_until": {
+      "@id": "schema:validThrough",
+      "@type": "xsd:dateTime"
+    },
+    "status": {
+      "@id": "lic:status",
+      "@type": "xsd:string"
+    },
+    "activation": {
+      "@id": "lic:activation",
+      "@type": "@id"
+    },
+    "max_activations": {
+      "@id": "lic:maxActivations",
+      "@type": "xsd:integer"
+    },
+    "machine_fingerprint": {
+      "@id": "lic:machineFingerprint",
+      "@type": "xsd:string"
+    },
+    "offline_grace_period_days": {
+      "@id": "lic:offlineGracePeriodDays",
+      "@type": "xsd:integer"
+    },
+    "issuer": {
+      "@id": "lic:issuer",
+      "@type": "xsd:string"
+    },
+    "tags": {
+      "@id": "schema:keywords",
+      "@container": "@set",
+      "@type": "xsd:string"
+    }
+  }
+}

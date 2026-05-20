@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/licensing/refs/heads/main/json-structure/licensing-oss-license-structure.json",
+  "name": "OSSLicense",
+  "description": "Represents an open-source software license entry as catalogued by SPDX, OSI, ChooseALicense, or detected by tools such as ScanCode, FOSSology, and ClearlyDefined.",
+  "type": "object",
+  "properties": {
+    "spdx_id": {
+      "type": "string",
+      "description": "Canonical SPDX short identifier for the license.",
+      "example": "Apache-2.0"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full, human-readable name of the license.",
+      "example": "Apache License 2.0"
+    },
+    "reference_url": {
+      "type": "uri",
+      "description": "Canonical reference URL for the license text on spdx.org.",
+      "example": "https://spdx.org/licenses/Apache-2.0.html"
+    },
+    "osi_approved": {
+      "type": "boolean",
+      "description": "Whether the license is approved by the Open Source Initiative.",
+      "example": true
+    },
+    "fsf_libre": {
+      "type": "boolean",
+      "description": "Whether the Free Software Foundation classifies the license as a free/libre license.",
+      "example": true
+    },
+    "is_deprecated": {
+      "type": "boolean",
+      "description": "Whether the SPDX License List has deprecated this identifier in favor of a successor.",
+      "example": false
+    },
+    "category": {
+      "type": "string",
+      "description": "Family of license obligations.",
+      "enum": [
+        "permissive",
+        "weak-copyleft",
+        "strong-copyleft",
+        "network-copyleft",
+        "public-domain",
+        "proprietary",
+        "source-available",
+        "other"
+      ],
+      "example": "permissive"
+    },
+    "obligations": {
+      "type": "array",
+      "description": "Common compliance obligations imposed by the license.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "include-copyright",
+          "include-license",
+          "state-changes",
+          "disclose-source",
+          "network-use-disclose",
+          "same-license",
+          "patent-grant",
+          "trademark-restriction"
+        ]
+      }
+    },
+    "license_text_url": {
+      "type": "uri",
+      "description": "URL to the canonical license text suitable for inclusion in NOTICE or LICENSE files.",
+      "example": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    "detected_by": {
+      "type": "string",
+      "description": "Tool that produced this license detection result, if any.",
+      "enum": [
+        "spdx",
+        "osi",
+        "choosealicense",
+        "github",
+        "scancode",
+        "fossology",
+        "clearlydefined",
+        "ort",
+        "snyk",
+        "synopsys",
+        "sonatype",
+        "jfrog",
+        "veracode",
+        "anchore",
+        "other"
+      ],
+      "example": "scancode"
+    },
+    "confidence": {
+      "type": "number",
+      "description": "Detection confidence between 0 and 1, when the record originates from a scanner.",
+      "example": 0.97
+    }
+  },
+  "required": [
+    "spdx_id",
+    "name",
+    "category"
+  ]
+}

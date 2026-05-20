@@ -1,0 +1,18 @@
+{
+  "spdx_id": "Apache-2.0",
+  "name": "Apache License 2.0",
+  "reference_url": "https://spdx.org/licenses/Apache-2.0.html",
+  "osi_approved": true,
+  "fsf_libre": true,
+  "is_deprecated": false,
+  "category": "permissive",
+  "obligations": [
+    "include-copyright",
+    "include-license",
+    "state-changes",
+    "patent-grant"
+  ],
+  "license_text_url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+  "detected_by": "scancode",
+  "confidence": 0.97
+}

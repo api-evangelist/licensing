@@ -1,0 +1,165 @@
+aid: licensing
+name: Licensing
+description: >-
+  An index and topic collection covering software licensing APIs across two intersecting domains: open-source license metadata and code-license detection (SPDX, OSI license list, ChooseALicense, FOSSology,
+  ScanCode, ClearlyDefined, the GitHub License API, and Software Composition Analysis tooling from Snyk, Sonatype, Synopsys Black Duck, JFrog, Veracode, and Anchore) and commercial software licensing,
+  entitlement, and activation APIs (Amazon License Manager, Flexera FlexNet Operations, Cryptlex, Keygen, LicenseSpring, Zentitle by Nalpeiron, Sentinel by Thales, Reprise, OpenLM, and SaaS license
+  management platforms such as Snow Software, SoftwareOne, Trelica, CloudEagle.ai, Sastrify, Spendflo, CloudNuro, Cleanshelf, Corma, Certero, and Binadox). The collection brings together the providers
+  that publish, govern, detect, scan, attribute, activate, meter, and reclaim software licenses across open-source compliance pipelines and commercial entitlement systems.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- License
+- Licensing
+- SPDX
+- Open Source License
+- License Compliance
+- Software Composition Analysis
+- Entitlement
+- Software Licensing
+- License Management
+- SaaS License Management
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/licensing/refs/heads/main/apis.yml
+created: '2026-05-19'
+modified: '2026-05-19'
+specificationVersion: '0.19'
+apis: []
+network:
+- name: Amazon License Manager
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/apis.yml
+- name: Anchore
+  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/apis.yml
+- name: Binadox
+  url: https://raw.githubusercontent.com/api-evangelist/binadox/refs/heads/main/apis.yml
+- name: Certero
+  url: https://raw.githubusercontent.com/api-evangelist/certero/refs/heads/main/apis.yml
+- name: Cleanshelf
+  url: https://raw.githubusercontent.com/api-evangelist/cleanshelf/refs/heads/main/apis.yml
+- name: CloudEagle.ai
+  url: https://raw.githubusercontent.com/api-evangelist/cloudeagle/refs/heads/main/apis.yml
+- name: CloudNuro
+  url: https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/apis.yml
+- name: Corma
+  url: https://raw.githubusercontent.com/api-evangelist/corma/refs/heads/main/apis.yml
+- name: Flexera
+  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/apis.yml
+- name: FOSSology
+  url: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/apis.yml
+- name: GitHub
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/apis.yml
+- name: JFrog
+  url: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/apis.yml
+- name: LICENSE.md
+  url: https://raw.githubusercontent.com/api-evangelist/license-md/refs/heads/main/apis.yml
+- name: Manifest Cyber
+  url: https://raw.githubusercontent.com/api-evangelist/manifest-cyber/refs/heads/main/apis.yml
+- name: Mendix
+  url: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/apis.yml
+- name: OpenChain
+  url: https://raw.githubusercontent.com/api-evangelist/openchain/refs/heads/main/apis.yml
+- name: OpenSSF
+  url: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/apis.yml
+- name: Sastrify
+  url: https://raw.githubusercontent.com/api-evangelist/sastrify/refs/heads/main/apis.yml
+- name: Snow Software
+  url: https://raw.githubusercontent.com/api-evangelist/snow-software/refs/heads/main/apis.yml
+- name: Snyk
+  url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/apis.yml
+- name: SoftwareOne
+  url: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/apis.yml
+- name: Sonatype
+  url: https://raw.githubusercontent.com/api-evangelist/sonatype/refs/heads/main/apis.yml
+- name: SPDX
+  url: https://raw.githubusercontent.com/api-evangelist/spdx/refs/heads/main/apis.yml
+- name: Spendflo
+  url: https://raw.githubusercontent.com/api-evangelist/spendflo/refs/heads/main/apis.yml
+- name: Suger
+  url: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/apis.yml
+- name: Synopsys
+  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/apis.yml
+- name: Trelica
+  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/apis.yml
+- name: Veracode
+  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/apis.yml
+common:
+- type: Portal
+  url: https://apievangelist.com
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: Features
+  data:
+  - name: Open Source License Metadata
+    description: Authoritative catalogs and identifiers for open-source licenses, including the SPDX License List, OSI-approved licenses, and ChooseALicense.com, exposed via APIs so tools can resolve canonical license identifiers, texts, and obligations.
+  - name: Source Code License Detection
+    description: Scanners such as ScanCode, FOSSology, and ClearlyDefined inspect source trees, package manifests, and binary artifacts to detect declared and inferred licenses across millions of files and report them in SPDX or similar formats.
+  - name: Software Composition Analysis
+    description: SCA platforms like Snyk, Sonatype, Synopsys Black Duck, JFrog Xray, Veracode SCA, and Anchore inventory open-source dependencies, attribute licenses to each component, and flag policy violations across build pipelines.
+  - name: SBOM and License Attribution
+    description: Software Bill of Materials tooling generates SPDX or CycloneDX documents that include per-component license declarations, enabling downstream attribution, NOTICE file generation, and regulatory disclosure.
+  - name: Commercial License Activation and Entitlement
+    description: Entitlement platforms such as Cryptlex, Keygen, LicenseSpring, Zentitle by Nalpeiron, Sentinel by Thales, Reprise, and Flexera FlexNet Operations issue, activate, validate, and revoke license keys for commercial software.
+  - name: License Metering and Floating Licenses
+    description: OpenLM, FlexNet, and Reprise track concurrent usage of floating and named-user licenses for engineering and design software, exposing utilization, denial, and check-out events through APIs.
+  - name: SaaS License Management
+    description: SaaS management platforms like Snow Software, SoftwareOne, Trelica, CloudEagle.ai, Sastrify, Spendflo, CloudNuro, Cleanshelf, Corma, Certero, and Binadox discover SaaS subscriptions, reconcile seat usage, and reclaim unused licenses.
+  - name: Marketplace Entitlement and Co-Sell
+    description: Cloud marketplace and metering APIs from Amazon License Manager and Suger let ISVs grant, meter, and revoke buyer entitlements purchased through AWS, Azure, and GCP marketplaces.
+- type: UseCases
+  data:
+  - name: Open Source License Compliance
+    description: Engineering and legal teams scan repositories and build artifacts with FOSSology, ScanCode, Snyk, or Synopsys Black Duck to attribute licenses to every dependency and prove compliance with copyleft and attribution obligations.
+  - name: SBOM Generation for Regulated Industries
+    description: Vendors generate SPDX or CycloneDX SBOMs that embed license declarations to satisfy U.S. Executive Order 14028, the EU Cyber Resilience Act, and medical-device, automotive, and federal procurement requirements.
+  - name: Commercial License Activation
+    description: ISVs ship desktop and embedded software that calls Cryptlex, Keygen, LicenseSpring, or FlexNet APIs at startup to activate, validate, and periodically re-check license entitlements against a hardware fingerprint.
+  - name: Floating License Pools for Engineering Tools
+    description: CAD, EDA, and scientific computing teams meter concurrent usage of expensive seats through OpenLM, FlexNet, and Reprise license servers, exposing real-time utilization through APIs to optimize seat counts.
+  - name: SaaS Spend and License Optimization
+    description: IT and finance teams use SaaS management platforms to discover shadow SaaS, reconcile seats against active users, and reclaim or right-size licenses to cut software spend.
+  - name: Cloud Marketplace Entitlement Provisioning
+    description: ISVs listed on AWS, Azure, and GCP marketplaces use Amazon License Manager and Suger to grant access to customers who purchase through the marketplace and to meter consumption-based billing.
+  - name: Repository License Surfacing
+    description: Code hosts like GitHub expose detected license metadata via the GitHub License API so downstream tooling can resolve a project's license without re-scanning source.
+  - name: License Policy Enforcement in CI
+    description: SCA gates in CI block builds that introduce dependencies under restricted licenses (AGPL, SSPL) using policies defined in Snyk, Sonatype, Synopsys, JFrog Xray, or Anchore.
+- type: Integrations
+  data:
+  - name: SPDX
+    description: The SPDX License List and SBOM specification from the Linux Foundation, providing canonical identifiers and machine-readable license metadata.
+  - name: FOSSology
+    description: Open-source license compliance scanner from the Linux Foundation that detects licenses, copyrights, and obligations across source trees.
+  - name: ScanCode Toolkit
+    description: Open-source license, copyright, and package detection toolkit used as the core engine in ClearlyDefined and many SCA platforms.
+  - name: ClearlyDefined
+    description: Open Source Initiative project that aggregates curated license and copyright data for open-source components and exposes it via API.
+  - name: Snyk
+    description: Developer-first security and SCA platform that inventories open-source dependencies and attributes licenses, flagging policy violations in pull requests.
+  - name: Synopsys Black Duck
+    description: Enterprise SCA platform for open-source license compliance, vulnerability management, and policy enforcement across software supply chains.
+  - name: Sonatype Lifecycle
+    description: SCA and policy engine from Sonatype enforcing license and security policies against open-source components in repositories and build pipelines.
+  - name: Flexera FlexNet Operations
+    description: Commercial license fulfillment and entitlement platform used by ISVs to issue, deliver, and manage software licenses for on-premises and embedded software.
+  - name: Keygen
+    description: Developer-focused commercial software licensing and distribution API offering activation, validation, and entitlement for desktop, embedded, and IoT software.
+  - name: Cryptlex
+    description: Cloud-based commercial software licensing API for activation, offline licensing, floating licenses, and machine fingerprinting.
+  - name: LicenseSpring
+    description: Software licensing platform for ISVs providing online and offline activation, license servers, and entitlement management.
+  - name: Zentitle by Nalpeiron
+    description: Cloud-based software monetization and entitlement platform issuing perpetual, subscription, and consumption-based licenses.
+  - name: Sentinel by Thales
+    description: Enterprise-grade software licensing and entitlement platform widely used in industrial, medical, and embedded software.
+  - name: OpenLM
+    description: License usage monitoring and reporting platform for floating engineering and CAD licenses across FlexNet, Reprise, DSLS, and other license servers.
+  - name: Amazon License Manager
+    description: AWS service for managing software licenses from vendors such as Microsoft, SAP, Oracle, and IBM across AWS and on-premises infrastructure.
+  - name: Snow Software
+    description: IT asset and SaaS management platform (now part of Flexera) providing visibility into software entitlements and consumption.
+  - name: GitHub License API
+    description: GitHub REST API endpoints that return the detected SPDX license for a repository and serve canonical license texts for choosing a license.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+humanURL: https://apievangelist.com

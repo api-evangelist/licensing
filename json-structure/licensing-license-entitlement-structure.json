@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/licensing/refs/heads/main/json-structure/licensing-license-entitlement-structure.json",
+  "name": "LicenseEntitlement",
+  "description": "Represents a commercial software license entitlement granted to a customer by an ISV through platforms such as Cryptlex, Keygen, LicenseSpring, Zentitle, Sentinel, Reprise, FlexNet, or Amazon License Manager.",
+  "type": "object",
+  "properties": {
+    "entitlement_id": {
+      "type": "string",
+      "description": "Unique identifier for the entitlement record in the issuing platform.",
+      "example": "ent_01HKZP3J7Q9V2Z8B4K5N6M7P8R"
+    },
+    "product": {
+      "type": "string",
+      "description": "Name of the product the entitlement applies to.",
+      "example": "Acme CAD Pro"
+    },
+    "product_version": {
+      "type": "string",
+      "description": "Specific product version or version range the entitlement covers.",
+      "example": "2026.1"
+    },
+    "license_type": {
+      "type": "string",
+      "description": "Form of the license.",
+      "enum": [
+        "perpetual",
+        "subscription",
+        "trial",
+        "node-locked",
+        "floating",
+        "named-user",
+        "consumption",
+        "site",
+        "oem"
+      ],
+      "example": "subscription"
+    },
+    "license_key": {
+      "type": "string",
+      "description": "License key or activation token issued to the customer (often hashed in API responses).",
+      "example": "ACME-XK4T-9PQ2-LM7R-WV3N"
+    },
+    "customer": {
+      "type": "object",
+      "description": "Customer or organization that holds the entitlement.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "example": "cust_5f3a2c1b"
+        },
+        "name": {
+          "type": "string",
+          "example": "Globex Engineering"
+        },
+        "email": {
+          "type": "string",
+          "example": "licensing@globex.example"
+        }
+      }
+    },
+    "seats": {
+      "type": "integer",
+      "description": "Number of seats or activations included in the entitlement.",
+      "example": 25
+    },
+    "seats_consumed": {
+      "type": "integer",
+      "description": "Number of seats currently activated or in use.",
+      "example": 18
+    },
+    "valid_from": {
+      "type": "string",
+      "description": "Timestamp at which the entitlement becomes valid (RFC 3339 date-time).",
+      "example": "2026-05-19T00:00:00Z"
+    },
+    "valid_until": {
+      "type": "string",
+      "description": "Timestamp at which the entitlement expires (RFC 3339 date-time); omit for perpetual licenses.",
+      "example": "2027-05-19T00:00:00Z"
+    },
+    "status": {
+      "type": "string",
+      "description": "Lifecycle status of the entitlement.",
+      "enum": [
+        "active",
+        "suspended",
+        "expired",
+        "revoked",
+        "pending"
+      ],
+      "example": "active"
+    },
+    "activation": {
+      "type": "object",
+      "description": "Activation policy and fingerprinting parameters for offline or device-bound licenses.",
+      "properties": {
+        "max_activations": {
+          "type": "integer",
+          "example": 3
+        },
+        "machine_fingerprint": {
+          "type": "string",
+          "example": "sha256:7d4e9c1f..."
+        },
+        "offline_grace_period_days": {
+          "type": "integer",
+          "example": 30
+        }
+      }
+    },
+    "issuer": {
+      "type": "string",
+      "description": "Licensing platform that issued the entitlement.",
+      "enum": [
+        "cryptlex",
+        "keygen",
+        "licensespring",
+        "zentitle",
+        "sentinel",
+        "reprise",
+        "flexnet",
+        "openlm",
+        "amazon-license-manager",
+        "suger",
+        "other"
+      ],
+      "example": "cryptlex"
+    }
+  },
+  "required": [
+    "entitlement_id",
+    "product",
+    "license_type",
+    "status",
+    "issuer"
+  ]
+}

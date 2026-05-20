@@ -1,0 +1,448 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Licensing
+  description: Vocabulary for the software licensing topic, covering open-source license metadata, code-license detection, SBOM and Software Composition Analysis, commercial license entitlement and activation, floating-license metering, marketplace entitlement, and SaaS license management.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: SPDX License List
+      namespace: spdx
+      status: active
+    - name: GitHub License API
+      namespace: github
+      status: active
+    - name: FOSSology
+      namespace: fossology
+      status: active
+    - name: Snyk License
+      namespace: snyk
+      status: active
+    - name: Sonatype Lifecycle
+      namespace: sonatype
+      status: active
+    - name: Synopsys Black Duck
+      namespace: synopsys
+      status: active
+    - name: Amazon License Manager
+      namespace: amazon-license-manager
+      status: active
+    - name: Flexera FlexNet Operations
+      namespace: flexera
+      status: active
+    - name: Snow Software
+      namespace: snow-software
+      status: active
+
+  resources:
+    - name: licenses
+      description: Canonical open-source license metadata records (SPDX, OSI, ChooseALicense)
+      actions:
+        - list
+        - get
+        - search
+    - name: license-detections
+      description: License detections produced by scanners against source files, packages, or artifacts
+      actions:
+        - scan
+        - list
+        - get
+    - name: sboms
+      description: Software Bill of Materials documents (SPDX, CycloneDX) including per-component license attribution
+      actions:
+        - create
+        - get
+        - list
+        - export
+    - name: components
+      description: Open-source components inventoried by SCA platforms with detected licenses and policy verdicts
+      actions:
+        - list
+        - get
+        - evaluate
+    - name: policies
+      description: License and security policies that gate dependency adoption in build pipelines
+      actions:
+        - create
+        - get
+        - list
+        - update
+        - delete
+    - name: entitlements
+      description: Commercial software license entitlements granted to customers
+      actions:
+        - create
+        - get
+        - list
+        - update
+        - revoke
+    - name: activations
+      description: Per-device or per-user activations against a commercial entitlement
+      actions:
+        - activate
+        - validate
+        - deactivate
+        - list
+    - name: license-checks
+      description: Periodic or on-startup checks performed by client software against a licensing API
+      actions:
+        - check
+        - list
+    - name: license-usage
+      description: Floating-license check-out, check-in, and denial events emitted by license servers
+      actions:
+        - list
+        - get
+        - report
+    - name: saas-licenses
+      description: SaaS subscription seats discovered, reconciled, and reclaimed by SaaS management platforms
+      actions:
+        - list
+        - get
+        - reconcile
+        - reclaim
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: search
+      description: Search across licenses or components
+      httpMethod: GET
+      pattern: query
+    - name: scan
+      description: Scan source, packages, or artifacts for license declarations and detections
+      httpMethod: POST
+      pattern: write
+    - name: create
+      description: Create a new resource, SBOM, policy, or entitlement
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Update an existing resource
+      httpMethod: PUT
+      pattern: write
+    - name: delete
+      description: Remove a resource
+      httpMethod: DELETE
+      pattern: destructive
+    - name: export
+      description: Export an SBOM in SPDX or CycloneDX format
+      httpMethod: GET
+      pattern: read
+    - name: evaluate
+      description: Evaluate a component against a license/security policy
+      httpMethod: POST
+      pattern: query
+    - name: activate
+      description: Activate a license key on a device
+      httpMethod: POST
+      pattern: write
+    - name: validate
+      description: Validate an existing activation against the licensing service
+      httpMethod: POST
+      pattern: read
+    - name: deactivate
+      description: Deactivate an activation, freeing a seat
+      httpMethod: POST
+      pattern: write
+    - name: revoke
+      description: Revoke an entitlement, invalidating all activations
+      httpMethod: POST
+      pattern: destructive
+    - name: check
+      description: Perform a startup or periodic license validation check
+      httpMethod: POST
+      pattern: read
+    - name: report
+      description: Produce a usage or compliance report
+      httpMethod: GET
+      pattern: read
+    - name: reconcile
+      description: Reconcile SaaS seats against active user activity
+      httpMethod: POST
+      pattern: query
+    - name: reclaim
+      description: Reclaim inactive SaaS seats
+      httpMethod: POST
+      pattern: destructive
+
+  schemas:
+    core:
+      - name: OSSLicense
+        description: An open-source license record from SPDX, OSI, or a scanner
+        properties:
+          - spdx_id
+          - name
+          - reference_url
+          - osi_approved
+          - fsf_libre
+          - category
+          - obligations
+          - detected_by
+          - confidence
+      - name: LicenseEntitlement
+        description: A commercial software license entitlement issued by an ISV
+        properties:
+          - entitlement_id
+          - product
+          - product_version
+          - license_type
+          - license_key
+          - customer
+          - seats
+          - seats_consumed
+          - valid_from
+          - valid_until
+          - status
+          - activation
+          - issuer
+
+  enums:
+    license_categories:
+      - permissive
+      - weak-copyleft
+      - strong-copyleft
+      - network-copyleft
+      - public-domain
+      - proprietary
+      - source-available
+      - other
+    license_obligations:
+      - include-copyright
+      - include-license
+      - state-changes
+      - disclose-source
+      - network-use-disclose
+      - same-license
+      - patent-grant
+      - trademark-restriction
+    license_types:
+      - perpetual
+      - subscription
+      - trial
+      - node-locked
+      - floating
+      - named-user
+      - consumption
+      - site
+      - oem
+    entitlement_status:
+      - active
+      - suspended
+      - expired
+      - revoked
+      - pending
+    issuers:
+      - cryptlex
+      - keygen
+      - licensespring
+      - zentitle
+      - sentinel
+      - reprise
+      - flexnet
+      - openlm
+      - amazon-license-manager
+      - suger
+      - other
+    detectors:
+      - spdx
+      - osi
+      - choosealicense
+      - github
+      - scancode
+      - fossology
+      - clearlydefined
+      - ort
+      - snyk
+      - synopsys
+      - sonatype
+      - jfrog
+      - veracode
+      - anchore
+      - other
+
+capability:
+  workflows:
+    - name: Open Source License Compliance Scan
+      description: Scan a repository or build artifact, attribute licenses to every component, and produce an SPDX SBOM for downstream attribution and audit.
+      apis:
+        - fossology
+        - snyk
+        - sonatype
+        - synopsys
+        - jfrog
+        - anchore
+      personas:
+        - Open Source Compliance Engineer
+      domains:
+        - Open Source Compliance
+    - name: Commercial License Activation
+      description: Activate a commercial license key on a customer device, validate it on each startup, and deactivate it when the device is retired.
+      apis:
+        - cryptlex
+        - keygen
+        - licensespring
+        - zentitle
+        - sentinel
+        - flexnet
+      personas:
+        - ISV Licensing Engineer
+      domains:
+        - Commercial Licensing
+    - name: Floating License Metering
+      description: Track concurrent check-out and check-in of floating license seats for CAD, EDA, and scientific software, exposing utilization and denial events for capacity planning.
+      apis:
+        - openlm
+        - flexnet
+        - reprise
+      personas:
+        - License Operations Manager
+      domains:
+        - License Metering
+    - name: SaaS License Reconciliation
+      description: Discover SaaS subscriptions across an organization, reconcile seat counts against active usage, and reclaim or right-size licenses.
+      apis:
+        - snow-software
+        - softwareone
+        - trelica
+        - cloudeagle
+        - sastrify
+        - spendflo
+      personas:
+        - SaaS Operations Manager
+      domains:
+        - SaaS License Management
+    - name: Marketplace Entitlement Provisioning
+      description: Grant, meter, and revoke buyer entitlements for software purchased through cloud marketplaces.
+      apis:
+        - amazon-license-manager
+        - suger
+      personas:
+        - Marketplace Operations Engineer
+      domains:
+        - Marketplace Entitlement
+    - name: Repository License Surfacing
+      description: Resolve the detected SPDX license for an open-source repository through the GitHub License API for downstream tooling.
+      apis:
+        - github
+        - spdx
+      personas:
+        - Developer Experience Engineer
+      domains:
+        - Open Source Compliance
+
+  personas:
+    - id: open-source-compliance-engineer
+      name: Open Source Compliance Engineer
+      description: Engineer responsible for scanning code and producing SBOMs that satisfy open-source license obligations.
+      workflows:
+        - Open Source License Compliance Scan
+    - id: isv-licensing-engineer
+      name: ISV Licensing Engineer
+      description: Engineer at an independent software vendor implementing commercial license activation and entitlement.
+      workflows:
+        - Commercial License Activation
+    - id: license-operations-manager
+      name: License Operations Manager
+      description: Operator responsible for floating-license servers and seat utilization for expensive engineering software.
+      workflows:
+        - Floating License Metering
+    - id: saas-operations-manager
+      name: SaaS Operations Manager
+      description: IT or finance owner of an organization's SaaS license footprint, focused on discovery, reconciliation, and spend reduction.
+      workflows:
+        - SaaS License Reconciliation
+    - id: marketplace-operations-engineer
+      name: Marketplace Operations Engineer
+      description: Engineer responsible for provisioning customer entitlements purchased through cloud marketplaces.
+      workflows:
+        - Marketplace Entitlement Provisioning
+    - id: developer-experience-engineer
+      name: Developer Experience Engineer
+      description: Engineer surfacing license metadata to developers through portals, IDEs, and CI feedback.
+      workflows:
+        - Repository License Surfacing
+
+  domains:
+    - name: Open Source Compliance
+      description: Detecting, attributing, and complying with open-source license obligations across source and binaries.
+    - name: Commercial Licensing
+      description: Issuing, activating, validating, and revoking license keys for commercial software.
+    - name: License Metering
+      description: Tracking concurrent use of floating and named-user licenses through license servers.
+    - name: SaaS License Management
+      description: Discovering, reconciling, and reclaiming SaaS subscription seats across an organization.
+    - name: Marketplace Entitlement
+      description: Granting and metering buyer entitlements purchased through cloud marketplaces.
+
+crossReference:
+  - resource: licenses
+    operations:
+      - list
+      - get
+      - search
+    workflows:
+      - Repository License Surfacing
+    personas:
+      - Developer Experience Engineer
+  - resource: license-detections
+    operations:
+      - scan
+      - list
+    workflows:
+      - Open Source License Compliance Scan
+    personas:
+      - Open Source Compliance Engineer
+  - resource: sboms
+    operations:
+      - create
+      - export
+    workflows:
+      - Open Source License Compliance Scan
+    personas:
+      - Open Source Compliance Engineer
+  - resource: entitlements
+    operations:
+      - create
+      - get
+      - revoke
+    workflows:
+      - Commercial License Activation
+      - Marketplace Entitlement Provisioning
+    personas:
+      - ISV Licensing Engineer
+      - Marketplace Operations Engineer
+  - resource: activations
+    operations:
+      - activate
+      - validate
+      - deactivate
+    workflows:
+      - Commercial License Activation
+    personas:
+      - ISV Licensing Engineer
+  - resource: license-usage
+    operations:
+      - list
+      - report
+    workflows:
+      - Floating License Metering
+    personas:
+      - License Operations Manager
+  - resource: saas-licenses
+    operations:
+      - list
+      - reconcile
+      - reclaim
+    workflows:
+      - SaaS License Reconciliation
+    personas:
+      - SaaS Operations Manager

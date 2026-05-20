@@ -1,0 +1,23 @@
+{
+  "entitlement_id": "ent_01HKZP3J7Q9V2Z8B4K5N6M7P8R",
+  "product": "Acme CAD Pro",
+  "product_version": "2026.1",
+  "license_type": "subscription",
+  "license_key": "ACME-XK4T-9PQ2-LM7R-WV3N",
+  "customer": {
+    "id": "cust_5f3a2c1b",
+    "name": "Globex Engineering",
+    "email": "licensing@globex.example"
+  },
+  "seats": 25,
+  "seats_consumed": 18,
+  "valid_from": "2026-05-19T00:00:00Z",
+  "valid_until": "2027-05-19T00:00:00Z",
+  "status": "active",
+  "activation": {
+    "max_activations": 3,
+    "machine_fingerprint": "sha256:7d4e9c1ff2a89b4e0a1d2f3c4b5a6978c8d9e0f1a2b3c4d5e6f70819a2b3c4d5",
+    "offline_grace_period_days": 30
+  },
+  "issuer": "cryptlex"
+}
