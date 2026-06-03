@@ -1,0 +1,27 @@
+title: Licensing
+description: 'An index and topic collection covering software licensing APIs across
+  two intersecting domains: open-source license metadata and code-license detection
+  (SPDX, OSI license list, ChooseALicense, FOSSology, ScanCode, ClearlyDefined, the
+  GitHub License API, and Software Composition Analysis tooling from Snyk, Sonatype,
+  Synopsys Black Duck, JFrog, Veracode, and Anchore) and commercial software licensing,
+  entitlement, and activation APIs (Amazon License Manager, Flexera FlexNet Operations,
+  Cryptlex, Keygen, LicenseSpring, Zentitle by Nalpeiron, Sentinel by Thales, Reprise,
+  OpenLM, and SaaS license management platforms such as Snow Software, SoftwareOne,
+  Trelica, CloudEagle.ai, Sastrify, Spendflo, CloudNuro, Cleanshelf, Corma, Certero,
+  and Binadox). The collection brings together the providers that publish, govern,
+  detect, scan, attribute, activate, meter, and reclaim software licenses across open-source
+  compliance pipelines and commercial entitlement systems.'
+url: https://licensing.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary
