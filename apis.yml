@@ -7,7 +7,7 @@ description: >-
   management platforms such as Snow Software, SoftwareOne, Trelica, CloudEagle.ai, Sastrify, Spendflo, CloudNuro, Cleanshelf, Corma, Certero, and Binadox). The collection brings together the providers
   that publish, govern, detect, scan, attribute, activate, meter, and reclaim software licenses across open-source compliance pipelines and commercial entitlement systems.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - License
 - Licensing
