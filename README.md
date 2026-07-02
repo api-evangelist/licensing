@@ -3,8 +3,6 @@ An index and topic collection covering software licensing APIs across two inters
 
 **URL:** [https://apievangelist.com](https://apievangelist.com)
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
-
 ## Tags:
 
  - License, Licensing, SPDX, Open Source License, License Compliance, Software Composition Analysis, Entitlement, Software Licensing, License Management, SaaS License Management
