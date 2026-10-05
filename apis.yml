@@ -1,5 +1,6 @@
 aid: licensing
 name: Licensing
+kind: topic
 description: >-
   An index and topic collection covering software licensing APIs across two intersecting domains: open-source license metadata and code-license detection (SPDX, OSI license list, ChooseALicense, FOSSology,
   ScanCode, ClearlyDefined, the GitHub License API, and Software Composition Analysis tooling from Snyk, Sonatype, Synopsys Black Duck, JFrog, Veracode, and Anchore) and commercial software licensing,
