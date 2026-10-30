@@ -1,136 +1,97 @@
-# Licensing (licensing)
-An index and topic collection covering software licensing APIs across two intersecting domains: open-source license metadata and code-license detection (SPDX, OSI license list, ChooseALicense, FOSSology, ScanCode, ClearlyDefined, the GitHub License API, and Software Composition Analysis tooling from Snyk, Sonatype, Synopsys Black Duck, JFrog, Veracode, and Anchore) and commercial software licensing, entitlement, and activation APIs (Amazon License Manager, Flexera FlexNet Operations, Cryptlex, Keygen, LicenseSpring, Zentitle by Nalpeiron, Sentinel by Thales, Reprise, OpenLM, and SaaS license management platforms such as Snow Software, SoftwareOne, Trelica, CloudEagle.ai, Sastrify, Spendflo, CloudNuro, Cleanshelf, Corma, Certero, and Binadox).
+# Licensing
 
-**URL:** [https://apievangelist.com](https://apievangelist.com)
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **Not from the company, and here with a question?** You are welcome here — we would rather be the
+> front line and point you the right way than have a good report go nowhere. What this repository
+> can answer is narrow, though, so it is worth knowing who you are actually looking for:
+>
+> - **A question about how the API works, an account, billing, or a bug in the service** — that is
+>   the company's own support, not us. We profile this API; we do not operate it and cannot see
+>   your account.
+> - **A bug in an open-source project we only catalog** — file it on that project's own repository.
+>   This has happened with a real and correct bug report that reached us instead of the people who
+>   could fix it, which helped nobody.
+> - **Anything about this listing itself** — the description, the tags, the rating, a missing or
+>   wrong artifact — is ours. Open an issue here.
+> - **Not sure, or something general about API Evangelist or APIs.io** — open an issue on the
+>   [APIs.io Inbox](https://github.com/api-search/inbox) and we will route it.
+>
+> **This repository contains no software, and we will never ask you to download anything.** There is
+> no build, release, installer, or binary here — only text and machine-readable API descriptions, so
+> there is nothing here that can be "corrupt" or need "repairing". Any issue, comment, or email
+> claiming otherwise and offering a download link is not from us and is hostile. Do not follow the
+> link; it is a lure. Report it to GitHub and, if you like, tell us at
+> [info@apievangelist.com](mailto:info@apievangelist.com) so we can take it down.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
 
-## Tags:
+An index and topic collection covering software licensing APIs across two intersecting domains: open-source license metadata and code-license detection (SPDX, OSI license list, ChooseALicense, FOSSology, ScanCode, ClearlyDefined, the GitHub License API, and Software Composition Analysis tooling from Snyk, Sonatype, Synopsys Black Duck, JFrog, Veracode, and Anchore) and commercial software licensing, entitlement, and activation APIs (Amazon License Manager, Flexera FlexNet Operations, Cryptlex, Keygen, LicenseSpring, Zentitle by Nalpeiron, Sentinel by Thales, Reprise, OpenLM, and SaaS license management platforms such as Snow Software, SoftwareOne, Trelica, CloudEagle.ai, Sastrify, Spendflo, CloudNuro, Cleanshelf, Corma, Certero, and Binadox). The collection brings together the providers that publish, govern, detect, scan, attribute, activate, meter, and reclaim software licenses across open-source compliance pipelines and commercial entitlement systems.
 
- - License, Licensing, SPDX, Open Source License, License Compliance, Software Composition Analysis, Entitlement, Software Licensing, License Management, SaaS License Management
+**Areas:** License · Licensing · SPDX · Open Source License · License Compliance · Software Composition Analysis · Entitlements · Software Licensing · License Management · SaaS License Management
 
-## Timestamps
+## Licensing on APIs.io
 
-- **Created:** 2026-05-19
-- **Modified:** 2026-05-19
+Everything profiled for Licensing is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/licensing/](https://apis.io/providers/licensing/)** — or go straight to one of the APIs or properties below.
 
-## Common Properties
+## Where to find this API
 
-- [Portal](https://apievangelist.com)
-- [GitHubOrganization](https://github.com/api-evangelist)
-- [JSONSchema - OSS License Schema](https://raw.githubusercontent.com/api-evangelist/licensing/refs/heads/main/json-schema/licensing-oss-license-schema.json)
-- [JSONSchema - License Entitlement Schema](https://raw.githubusercontent.com/api-evangelist/licensing/refs/heads/main/json-schema/licensing-license-entitlement-schema.json)
-- [JSON-LD](https://raw.githubusercontent.com/api-evangelist/licensing/refs/heads/main/json-ld/licensing-context.jsonld)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/licensing/refs/heads/main/vocabulary/licensing-vocabulary.yaml)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Features
+- [GitHub](https://github.com/api-evangelist)
 
-| Name | Description |
-|------|-------------|
-| Open Source License Metadata | Authoritative catalogs and identifiers for open-source licenses, including the SPDX License List, OSI-approved licenses, and ChooseALicense.com, exposed via APIs so tools can resolve canonical license identifiers, texts, and obligations. |
-| Source Code License Detection | Scanners such as ScanCode, FOSSology, and ClearlyDefined inspect source trees, package manifests, and binary artifacts to detect declared and inferred licenses across millions of files and report them in SPDX or similar formats. |
-| Software Composition Analysis | SCA platforms like Snyk, Sonatype, Synopsys Black Duck, JFrog Xray, Veracode SCA, and Anchore inventory open-source dependencies, attribute licenses to each component, and flag policy violations across build pipelines. |
-| SBOM and License Attribution | Software Bill of Materials tooling generates SPDX or CycloneDX documents that include per-component license declarations, enabling downstream attribution, NOTICE file generation, and regulatory disclosure. |
-| Commercial License Activation and Entitlement | Entitlement platforms such as Cryptlex, Keygen, LicenseSpring, Zentitle by Nalpeiron, Sentinel by Thales, Reprise, and Flexera FlexNet Operations issue, activate, validate, and revoke license keys for commercial software. |
-| License Metering and Floating Licenses | OpenLM, FlexNet, and Reprise track concurrent usage of floating and named-user licenses for engineering and design software, exposing utilization, denial, and check-out events through APIs. |
-| SaaS License Management | SaaS management platforms like Snow Software, SoftwareOne, Trelica, CloudEagle.ai, Sastrify, Spendflo, CloudNuro, Cleanshelf, Corma, Certero, and Binadox discover SaaS subscriptions, reconcile seat usage, and reclaim unused licenses. |
-| Marketplace Entitlement and Co-Sell | Cloud marketplace and metering APIs from Amazon License Manager and Suger let ISVs grant, meter, and revoke buyer entitlements purchased through AWS, Azure, and GCP marketplaces. |
+## API Evangelist rating
 
-## Use Cases
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-| Name | Description |
-|------|-------------|
-| Open Source License Compliance | Engineering and legal teams scan repositories and build artifacts with FOSSology, ScanCode, Snyk, or Synopsys Black Duck to attribute licenses to every dependency and prove compliance with copyleft and attribution obligations. |
-| SBOM Generation for Regulated Industries | Vendors generate SPDX or CycloneDX SBOMs that embed license declarations to satisfy U.S. Executive Order 14028, the EU Cyber Resilience Act, and medical-device, automotive, and federal procurement requirements. |
-| Commercial License Activation | ISVs ship desktop and embedded software that calls Cryptlex, Keygen, LicenseSpring, or FlexNet APIs at startup to activate, validate, and periodically re-check license entitlements against a hardware fingerprint. |
-| Floating License Pools for Engineering Tools | CAD, EDA, and scientific computing teams meter concurrent usage of expensive seats through OpenLM, FlexNet, and Reprise license servers, exposing real-time utilization through APIs to optimize seat counts. |
-| SaaS Spend and License Optimization | IT and finance teams use SaaS management platforms to discover shadow SaaS, reconcile seats against active users, and reclaim or right-size licenses to cut software spend. |
-| Cloud Marketplace Entitlement Provisioning | ISVs listed on AWS, Azure, and GCP marketplaces use Amazon License Manager and Suger to grant access to customers who purchase through the marketplace and to meter consumption-based billing. |
-| Repository License Surfacing | Code hosts like GitHub expose detected license metadata via the GitHub License API so downstream tooling can resolve a project's license without re-scanning source. |
-| License Policy Enforcement in CI | SCA gates in CI block builds that introduce dependencies under restricted licenses (AGPL, SSPL) using policies defined in Snyk, Sonatype, Synopsys, JFrog Xray, or Anchore. |
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-## Integrations
+## How this profile is made
 
-| Name | Description |
-|------|-------------|
-| SPDX | The SPDX License List and SBOM specification from the Linux Foundation, providing canonical identifiers and machine-readable license metadata. |
-| FOSSology | Open-source license compliance scanner from the Linux Foundation that detects licenses, copyrights, and obligations across source trees. |
-| ScanCode Toolkit | Open-source license, copyright, and package detection toolkit used as the core engine in ClearlyDefined and many SCA platforms. |
-| ClearlyDefined | Open Source Initiative project that aggregates curated license and copyright data for open-source components and exposes it via API. |
-| Snyk | Developer-first security and SCA platform that inventories open-source dependencies and attributes licenses, flagging policy violations in pull requests. |
-| Synopsys Black Duck | Enterprise SCA platform for open-source license compliance, vulnerability management, and policy enforcement across software supply chains. |
-| Sonatype Lifecycle | SCA and policy engine from Sonatype enforcing license and security policies against open-source components in repositories and build pipelines. |
-| Flexera FlexNet Operations | Commercial license fulfillment and entitlement platform used by ISVs to issue, deliver, and manage software licenses for on-premises and embedded software. |
-| Keygen | Developer-focused commercial software licensing and distribution API offering activation, validation, and entitlement for desktop, embedded, and IoT software. |
-| Cryptlex | Cloud-based commercial software licensing API for activation, offline licensing, floating licenses, and machine fingerprinting. |
-| LicenseSpring | Software licensing platform for ISVs providing online and offline activation, license servers, and entitlement management. |
-| Zentitle by Nalpeiron | Cloud-based software monetization and entitlement platform issuing perpetual, subscription, and consumption-based licenses. |
-| Sentinel by Thales | Enterprise-grade software licensing and entitlement platform widely used in industrial, medical, and embedded software. |
-| OpenLM | License usage monitoring and reporting platform for floating engineering and CAD licenses across FlexNet, Reprise, DSLS, and other license servers. |
-| Amazon License Manager | AWS service for managing software licenses from vendors such as Microsoft, SAP, Oracle, and IBM across AWS and on-premises infrastructure. |
-| Snow Software | IT asset and SaaS management platform (now part of Flexera) providing visibility into software entitlements and consumption. |
-| GitHub License API | GitHub REST API endpoints that return the detected SPDX license for a repository and serve canonical license texts for choosing a license. |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Artifacts
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Licensing: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-Machine-readable artifacts describing licensing entities, vocabularies, and example payloads.
+## Open an issue
 
-### JSON Schema
-
-- [OSS License Schema](json-schema/licensing-oss-license-schema.json)
-- [License Entitlement Schema](json-schema/licensing-license-entitlement-schema.json)
-
-### JSON Structure
-
-- [OSS License Structure](json-structure/licensing-oss-license-structure.json)
-- [License Entitlement Structure](json-structure/licensing-license-entitlement-structure.json)
-
-### JSON-LD
-
-- [Licensing Context](json-ld/licensing-context.jsonld)
-
-## Vocabulary
-
-- [Licensing Vocabulary](vocabulary/licensing-vocabulary.yaml) — Unified taxonomy mapping resources, actions, workflows, and personas across open-source license metadata, code-license detection, SBOM/SCA tooling, commercial entitlement, and SaaS license management.
-
-## Examples
-
-- [OSS License Example](examples/licensing-oss-license-example.json)
-- [License Entitlement Example](examples/licensing-license-entitlement-example.json)
-
-## Network
-
-This index references the following licensing-related provider repositories:
-
-- [Amazon License Manager](https://github.com/api-evangelist/amazon-license-manager)
-- [Anchore](https://github.com/api-evangelist/anchore)
-- [Binadox](https://github.com/api-evangelist/binadox)
-- [Certero](https://github.com/api-evangelist/certero)
-- [Cleanshelf](https://github.com/api-evangelist/cleanshelf)
-- [CloudEagle.ai](https://github.com/api-evangelist/cloudeagle)
-- [CloudNuro](https://github.com/api-evangelist/cloudnuro)
-- [Corma](https://github.com/api-evangelist/corma)
-- [Flexera](https://github.com/api-evangelist/flexera)
-- [FOSSology](https://github.com/api-evangelist/fossology)
-- [GitHub](https://github.com/api-evangelist/github)
-- [JFrog](https://github.com/api-evangelist/jfrog)
-- [LICENSE.md](https://github.com/api-evangelist/license-md)
-- [Manifest Cyber](https://github.com/api-evangelist/manifest-cyber)
-- [Mendix](https://github.com/api-evangelist/mendix)
-- [OpenChain](https://github.com/api-evangelist/openchain)
-- [OpenSSF](https://github.com/api-evangelist/openssf)
-- [Sastrify](https://github.com/api-evangelist/sastrify)
-- [Snow Software](https://github.com/api-evangelist/snow-software)
-- [Snyk](https://github.com/api-evangelist/snyk)
-- [SoftwareOne](https://github.com/api-evangelist/softwareone)
-- [Sonatype](https://github.com/api-evangelist/sonatype)
-- [SPDX](https://github.com/api-evangelist/spdx)
-- [Spendflo](https://github.com/api-evangelist/spendflo)
-- [Suger](https://github.com/api-evangelist/suger)
-- [Synopsys](https://github.com/api-evangelist/synopsys)
-- [Trelica](https://github.com/api-evangelist/trelica)
-- [Veracode](https://github.com/api-evangelist/veracode)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/licensing/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
